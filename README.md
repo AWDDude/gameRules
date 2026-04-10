@@ -5,4 +5,5 @@ This is a repo that contains the rules for various card games. Each file in the 
 ## Games
 
 - [Euchre](rules/euchre.md)
+- [Liar's Dice](rules/liarsdice.md)
 - [Rummy 500](rules/rummy500.md)
