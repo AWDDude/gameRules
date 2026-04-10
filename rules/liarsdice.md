@@ -2,162 +2,87 @@
 
 ## Overview
 
-Liar's Dice is a bluffing and deduction dice game for 2 or more players. Each player has a set of dice hidden under a cup. Players take turns making increasingly bold claims about the total dice on the table, and opponents must decide whether to believe or challenge. The last player with dice remaining wins.
-
-## Players
-
-2-6 players (best with 4-5 players)
+Liar's Dice is a bluffing dice game for 2-6 players (best with 4-5). Players hide their dice under cups and take turns claiming how many dice of a certain value are on the table. Get caught lying — or wrongly call someone a liar — and you lose a die. Last player standing wins.
 
 ## Equipment
 
-- 5 standard six-sided dice per player
-- 1 opaque cup per player (to hide dice)
-
-## Objective
-
-Be the last player with dice remaining by outbluffing opponents and accurately reading their claims.
+- 5 six-sided dice per player
+- 1 opaque cup per player
 
 ## Setup
 
 1. Each player starts with 5 dice and a cup
-2. All players simultaneously roll their dice and keep them hidden under their cup
-3. Each player may look at their own dice but must keep them hidden from others
-4. Choose a starting player (first round is random; subsequent rounds start with the player who lost the previous challenge)
+2. Everyone rolls simultaneously and hides their dice under their cup
+3. Look at your own dice — keep them hidden from others
+4. Pick a starting player at random
 
 ## Gameplay
 
-### Making a Bid
+### Bidding
 
-On your turn, you must either **raise the bid** or **challenge** the previous bid.
+On your turn you must **raise the bid** or **challenge**. You cannot pass.
 
-A bid consists of a **quantity** and a **face value** — for example, "three 4s" means you are claiming there are at least three dice showing 4 among all dice on the table (including your own).
+A bid is a **quantity** and a **face value** — "three 4s" claims there are at least three dice showing 4 among *all* dice on the table (yours and everyone else's).
 
-### Raising the Bid
+To raise, either:
+- **Increase the quantity** (any face value) — "three 4s" → "four 2s"
+- **Keep the quantity, increase the face value** — "three 4s" → "three 5s"
 
-To raise, you must increase the bid in one of two ways:
+Play proceeds clockwise.
 
-- **Increase the quantity** with any face value (e.g., "three 4s" → "four 2s")
-- **Keep the same quantity but increase the face value** (e.g., "three 4s" → "three 5s")
+### Wildcards (1s are Wild)
 
-Play proceeds clockwise. Each player must raise or challenge — you cannot pass.
+**Dice showing 1 count as every face value.** When counting dice for a challenge, add all 1s to the total.
 
-### Challenging (Calling "Liar")
+**Example**: Dice on the table include two 1s and three 3s. A bid of "five 3s" is valid because 3 + 2 = 5.
 
-Instead of raising, you may challenge the previous player's bid by calling "Liar!" (or "I doubt it," etc.). When a challenge is made:
+### Challenging
 
-1. **All players lift their cups** and reveal their dice
-2. **Count the total** number of dice showing the bid's face value across all players
-3. **Determine the outcome**:
-   - If the actual count is **equal to or greater than** the bid → the **challenger loses** (the bid was valid)
-   - If the actual count is **less than** the bid → the **bidder loses** (the bid was a lie)
+Instead of raising, call **"Liar!"** to challenge the previous bid:
 
-The loser removes one die from the game permanently.
+1. All players reveal their dice
+2. Count dice matching the bid's face value (including wild 1s)
+3. If the count **meets or exceeds** the bid → **challenger loses**
+4. If the count is **less than** the bid → **bidder loses**
 
-### Starting a New Round
-
-After a challenge:
-
-1. The loser starts the next round
-2. All players re-roll their remaining dice and hide them
-3. A new round of bidding begins with no prior bid
+The loser removes one die permanently. The loser starts the next round — everyone re-rolls and bidding restarts from scratch.
 
 ### Elimination
 
-When a player loses all their dice, they are eliminated. Play continues until only one player remains.
+Lose all your dice, you're out. Last player with dice wins.
 
-## Wildcards (1s are Wild)
+## Example Round
 
-In the standard version, **dice showing 1 count as every face value**. This effectively increases the count for any bid.
+3 players, 5 dice each (15 total).
 
-**Example**: The dice on the table are 1, 1, 3, 4, 5, 6, 3, 2, 4, 3. If someone bids "five 3s," the actual count of 3s is 3 (actual 3s) + 2 (wild 1s) = 5. The bid is valid.
+- Alice's dice: 1, 3, 3, 5, 6
+- Bob's dice: 2, 2, 4, 4, 6
+- Carol's dice: 1, 3, 5, 5, 6
 
-### Bidding 1s
+**Bidding**:
+- Alice: "Three 3s" (she sees two 3s + a wild 1)
+- Bob: "Four 5s" (bluffing — he has no 5s)
+- Carol: "Five 5s" (she has two 5s + a wild 1)
+- Alice: "Five 6s" (same quantity, higher face)
+- Bob: **"Liar!"**
 
-Because 1s are wild, they are harder to bid and follow special rules:
+**Reveal** — count 6s plus wild 1s:
+- Alice: 6, 1 → 2
+- Bob: 6 → 1
+- Carol: 6, 1 → 2
+- Total: **5**
 
-- **Bidding 1s requires only half the quantity** (rounded up) compared to other face values. For example, if the current bid is "six 3s," a bid of 1s only needs to be "three 1s" or higher.
-- **Switching from 1s back to another face value** requires doubling the quantity plus one. For example, "three 1s" requires at least "seven 2s" (or higher face) to raise with a non-wild value.
-
-### No-Wilds Variant
-
-Some groups play without wild 1s — each die only counts for its actual face value. This simplifies bidding rules and makes the game more predictable.
-
-## Scoring
-
-There is no point-based scoring. The game is purely elimination-based — lose a challenge, lose a die. Lose all dice, you're out.
-
-## Winning
-
-The last player with one or more dice remaining wins the game.
+Bid was "five 6s" — exactly right. **Bob loses a die** and starts the next round with 4 dice.
 
 ## Strategy Tips
 
-1. **Use your own dice as a baseline** — if you have two 5s, there are likely more on the table
-2. **Calculate expected counts** — with N total dice on the table, expect roughly N/3 of any face value (N/6 natural + N/6 wild 1s)
-3. **Bid conservatively early** — small raises give you information from others' reactions
-4. **Watch for hesitation** — players who pause before raising may be bluffing
-5. **Bluff strategically** — occasional bold bids keep opponents guessing and discourage challenges
-6. **Challenge when the math doesn't work** — if a bid exceeds half the total dice on the table, it's statistically unlikely
-7. **Adjust for player count** — with fewer players remaining, bids should be lower
-8. **Track eliminated dice** — as dice leave the game, maximum possible counts drop
+1. **Start from what you know** — your own dice are your baseline for realistic bids
+2. **Expect roughly N/3 of any value** on the table (N/6 natural + N/6 wild 1s)
+3. **Raise small** early to gather information from others' reactions
+4. **Challenge when the numbers stop making sense** — bids above half the total dice are risky
 
 ## Common Variations
 
-### Palifico (Spot On)
-
-A player reduced to one die triggers a **Palifico round**:
-- 1s are **not wild** for that round only
-- Bids can only increase in quantity, not face value (unless changing the face value entirely)
-- Normal rules resume next round
-
-### Exact Call
-
-Any player may call **"Exact"** (or "Spot On") instead of raising or challenging:
-- If the actual count **exactly matches** the current bid, the caller gains a lost die back (up to 5)
-- If the count does not match exactly, the caller loses a die
-- High risk, high reward
-
-### Open Hand
-
-When a player is reduced to one die, they roll it openly (visible to all). Other players' dice remain hidden.
-
-## Terminology
-
-- **Bid**: A claim about the minimum number of dice showing a specific face value across all players
-- **Challenge**: Calling another player's bid a lie, triggering a reveal
-- **Wild**: Dice showing 1, which count as any face value (in standard rules)
-- **Palifico**: A special round triggered when a player is reduced to one die
-- **Spot On / Exact**: A call that the current bid is precisely correct
-
-## Example Hand Walkthrough
-
-### Setup
-
-3 players (Alice, Bob, Carol), each with 5 dice (15 total dice on the table).
-
-### Roll
-
-- Alice looks at her dice: 1, 3, 3, 5, 6
-- Bob looks at his dice: 2, 2, 4, 4, 6
-- Carol looks at her dice: 1, 3, 5, 5, 6
-
-### Bidding
-
-- **Alice** opens: "Three 3s" (she has two 3s and a wild 1 — she knows of three already)
-- **Bob** raises: "Four 5s" (a guess — he has no 5s but is bluffing to shift the face value)
-- **Carol** raises: "Five 5s" (she has two 5s and a wild 1 — she believes there are likely more)
-- **Alice** raises: "Five 6s" (same quantity, higher face value)
-- **Bob** thinks this is too high and calls **"Liar!"**
-
-### Reveal
-
-All players reveal their dice. Count the 6s (including wild 1s):
-- Alice: 6, 1 (wild) → 2
-- Bob: 6 → 1
-- Carol: 6, 1 (wild) → 2
-
-Total 6s: **5**. Alice's bid of "five 6s" is exactly correct.
-
-### Result
-
-Bob loses because the bid was valid (5 ≥ 5). Bob removes one die and now plays with 4. Bob starts the next round.
+- **No Wilds**: 1s count only as 1s — simpler and more predictable
+- **Palifico**: When reduced to one die, that player triggers a round where 1s are not wild
+- **Exact Call**: Call "Spot On" if you think the bid is exactly right — gain a die back if correct, lose one if wrong
